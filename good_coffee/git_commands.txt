@@ -15,11 +15,13 @@ IF YOU TRIGGER VIM WITH MISSING COMMIT MESSAGE
 -Fourth: Type :wq to save the message and escape
 *********
 
+
 git status |=| what's changed since last commit
 git diff |=| tells *what's* changed since last commit
 git log |=| lists all commits with IDs and messages
 
 git diff INSERTcommitIDhere INSERTcommitIDhere |=| Tells difference between two specific commits. Triggers VIM.
+
 
 **********
 IF YOU TRIGGER VIM WITH GIT DIFF
@@ -27,3 +29,6 @@ IF YOU TRIGGER VIM WITH GIT DIFF
 **********
 
 
+git branch |=| tells me what branch I'm on
+get checkout -b BRANCHNAME |=| switches me to a new branch called BRANCHNAME
+git checkout BRANCHNAME |=| switches me to an exisiting branch called BRANCHNAME
